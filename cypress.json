@@ -1,0 +1,9 @@
+{
+
+"baseUrl": "https://reqres.in/api",
+
+"chromeWebSecurity": false,
+
+"typescript.validate.enable": false
+
+}
