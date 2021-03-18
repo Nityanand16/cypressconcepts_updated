@@ -6,7 +6,9 @@ describe('GET API request with alias', function () {
       cy.get('@getapi').its('headers').its('content-type').should('include', 'application/json; charset=utf-8');
     }); //We can store the base url("baseUrl": "https://reqres.in/api) in cypress.json file
     //so in row 5 we can use the resource and parameter
+    //right now baseUrl is removed from cypress.json as we can keep only one baseUrl
     //note: we can make alias by using as method
+    
   
     it('validate the status code', function () {
       cy.get('@getapi').its('status').should('eq', 200);

@@ -1,9 +1,11 @@
 {
 
-"baseUrl": "https://reqres.in/api",
+
 
 "chromeWebSecurity": false,
 
-"typescript.validate.enable": false
+"typescript.validate.enable": false,
+
+"baseUrl": "https://react-redux.realworld.io/"
 
 }
