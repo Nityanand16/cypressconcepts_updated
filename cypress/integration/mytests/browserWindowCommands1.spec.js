@@ -3,7 +3,7 @@ describe("Window Test Suite Commands", () => {
     cy.visit("#/login?_k=kzhyxx");
   });
 
-  it("Window test commands-URI Properties", () => {
+  it("Window test commands-URL Properties", () => {
     cy.window().should((win) => {
       const loc = win.location;
       expect(loc.hash).to.equal("#/login?_k=kzhyxx");
@@ -13,7 +13,7 @@ describe("Window Test Suite Commands", () => {
     });
   });
 
-  it("CY Test commands - URI Properties", () => {
+  it("CY Test commands - URL Properties", () => {
     cy.location("hash").should("eq", "#/login?_k=kzhyxx");
     cy.location("host").should("eq", "react-redux.realworld.io");
     cy.location("pathname").should("eq", "/");
