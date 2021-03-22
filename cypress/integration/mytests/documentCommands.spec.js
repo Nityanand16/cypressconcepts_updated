@@ -52,7 +52,7 @@ describe('Document Test Suite Commands', () =>{
         })
     })
 
-    it.only('CY Test Commands for Documents - Cookies', () => {
+    it('CY Test Commands for Documents - Cookies', () => {
         //Create Cookies
         cy.setCookie("user","Nitya")
         //Read Cookies
@@ -67,12 +67,5 @@ describe('Document Test Suite Commands', () =>{
         cy.getCookie("user")    //As the cookie is cleared so there is no
         //cookie, it will not give any error but the outcome is null
     })
-
-
-
-
-
-
-
 
 })
