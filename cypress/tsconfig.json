@@ -5,9 +5,10 @@
     "types": [
       "cypress"
     ],
-    "extends": "@tsconfig/node14/tsconfig.json"
   },
   "include": [
-    "**/*.*"
+    "**/*.*",
+    "../../cypressPractice/cypress/integration/testcase/queryingCommands.spec.js"
   ]
 }
+
