@@ -4,6 +4,8 @@
 
 "chromeWebSecurity": false,
 
+"firefoxWebSecurity": false,
+
 "typescript.validate.enable": false,
 
 "baseUrl": "https://react-redux.realworld.io/"

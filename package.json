@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run_spec": "npx cypress run --spec 'cypress/integration/mytests/login.spec.js'",
+    "cy:run_browser": "npm run cy:run_spec -- --browser chrome && npm run cy:run_spec -- --browser firefox"
   },
   "author": "Nityanand Gupta",
   "license": "ISC",
