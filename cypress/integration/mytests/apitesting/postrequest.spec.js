@@ -36,6 +36,6 @@ describe('Post request examples for API', function () {
         expect(response.body).to.have.property('createdAt');
         expect(response.headers).to.have.property('content-type');
       });
-    }); //header parameter is an optional in payload
+    }); //header parameter is an optional in the payload
 });
   
